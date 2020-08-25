@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" description="Ozuru, Icheka Fortune">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Stopwatch</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div id="parent" class="container">
+        <h4 id="brand__name">Icheka</h4>
+        <div class="sw__page">
+            <div class="row sw__time__parent">
+                <div id="minute" class="col-2 sw__time" style="margin-left: -0.3em;">
+                    0
+                </div>
+                <div class="sw__time sw__time--seperator">:</div>
+                <div id="second" class="col-2 sw__time">
+                    0
+                </div>
+                <div class="sw__time sw__time--seperator">.</div>
+                <div id="millisecond" class="col-2 sw__time" style="font-size: 210%; padding-top: 1em;">
+                    0000
+                </div>
+                <div class="row col-12 sw__page--pagination">
+                    <i class="fa fa-circle text-white"></i> &nbsp;&nbsp;
+                    <i class="fa fa-circle text-dark"></i>
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <div class="row">
+                <button id="btn--reset" class="btn btn-dark sw__controller--button">Reset</button>
+                <button id="btn--start" class="btn btn-dark sw__controller--button offset-5">Start</button>
+            </div>
+        </div>
+        <div id="data">
+            <div id="duration"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

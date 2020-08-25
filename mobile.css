@@ -1,0 +1,55 @@
+@media screen and (max-width: 568px) {
+    body {
+        background: black;
+        padding: 1em;
+    }
+    #parent {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+
+    }
+    #brand__name {
+        color: white;
+        font-family: magneto;
+        text-align: center;
+    }
+    .sw__page {
+        margin-top: 4em;
+        //border: 1px solid white;
+    }
+    .sw__time {
+        color: white;
+        margin: 0 auto;
+        font-size: 390%;
+    }
+    .sw__time--seperator {
+        margin: 0 auto;
+    }
+    #controls {
+        margin-top: 4em;
+    }
+    .sw__controller--button {
+        border: 0px;
+        border-radius: 50%;
+        padding: 1.8em 1.5em;
+        border: 2px solid green;
+    }
+    #btn--reset {
+        padding: 1.8em 1.4em;
+        margin-left: 1em;
+        border: 0.1px solid white;
+    }
+    .sw__page--pagination {
+        margin-top: 10em;
+        margin-bottom: 0em;
+        text-align: center;
+        padding-left: 50%;
+    }
+    #data {
+        color: white;
+        font-size: 150%;
+        text-align: center;
+        padding: 2em 0;
+    }
+}
